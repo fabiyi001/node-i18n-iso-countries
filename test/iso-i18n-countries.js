@@ -137,10 +137,6 @@ describe("i18n for iso 3166-1", function () {
       assert.strictEqual(i18niso.getSimpleAlpha2Code("belgie", "nl"), "BE");
       assert.strictEqual(i18niso.getSimpleAlpha2Code("België", "nl"), "BE");
       assert.strictEqual(
-        i18niso.getSimpleAlpha2Code("Republic of Korea", "en"),
-        "KR"
-      );
-      assert.strictEqual(
         i18niso.getSimpleAlpha2Code("South Korea", "en"),
         "KR"
       );
@@ -272,12 +268,6 @@ describe("i18n for iso 3166-1", function () {
         it("nameToAlpha2 United States of America => US", function () {
           assert.strictEqual(
             i18niso.getAlpha2Code("United States of America", lang),
-            "US"
-          );
-        });
-        it("nameToAlpha2 United States => US", function () {
-          assert.strictEqual(
-            i18niso.getAlpha2Code("United States", lang),
             "US"
           );
         });

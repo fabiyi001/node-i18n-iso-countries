@@ -98,6 +98,7 @@ console.log(countries.getNames("en", {select: "official"})); // { 'AF': 'Afghani
 - `ko`: Korean
 - `ku`: Kurdish
 - `ky`: Kyrgyz
+- `lb`: Luxembourgish
 - `lt`: Lithuanian
 - `lv`: Latvian
 - `mk`: Macedonian
